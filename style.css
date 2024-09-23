@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(230, 237, 237);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+
+}
+
+.c1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.calci{
+    background-color: aqua;
+    padding: 16px;
+    border-radius:40px;
+    box-shadow: inset 5px 5px 13px rgb(59, 209, 229), 5px 5px 13px brown;
+    display: grid;
+    grid-template-columns: repeat(4,90px);
+
+}
+input{
+    grid-column: span 4;
+    height: 80px;
+    width: 300px;
+    background-color: aqua;
+    box-shadow:  inset -5px -5px 13px rgb(59, 209, 229), 5px 5px 13px brown;
+    border: none;
+    border-radius: 25px;
+    color: rgb(241, 73, 174);
+    font-size: 60px;
+    text-align: end;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color:aqua ;
+    box-shadow: -5px -5px 13px brown ,5px 5px 13px brown ;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  
+}
+button:active{
+    color: rgb(243, 235, 236);
+   background-color: purple;
+    font-size: 30px;
+}
+.calculate{
+    width:141px ;
+    background-color:aqua ;
+    box-shadow: -5px -5px 13px brown ,5px 5px 13px brown ;
+}
